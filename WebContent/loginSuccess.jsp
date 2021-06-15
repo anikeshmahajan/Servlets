@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Login Success Page</title>
 </head>
 <body>
-
+<h3> Hi <%=request.getAttribute("user") %>,Login SuccessFull.</h3>
+<a href="login.html">Login Page</a>
 </body>
 </html>
